@@ -1,0 +1,436 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    background-color: rgba(29, 29, 29, 0.527);
+    position: fixed;
+    width: 100%;
+}
+.navlist{
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+li{
+    padding: 20px 50px ;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.1s ;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rightnav{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.background{
+    background: url(https://images.unsplash.com/photo-1615966650071-855b15f29ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cGxlJTIwaW4lMjBsb3ZlfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+    width: 100%;
+}
+.logo{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    border-radius: 42px 42px 11px 52px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.text{
+    size: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#home{
+    height: 110vh;
+}
+.okk{
+    width: 50%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.small{
+    color: rgb(255, 0, 0);
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#sarvices{
+    background: url(https://t3.ftcdn.net/jpg/01/73/50/18/360_F_173501808_X7zYMHQJSCZkgLkRVPmlxej0xarV06bO.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.sarvices{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    font-size: 22.2px;
+    padding: 56px;
+    width: 20%;
+    height: 130px;
+}
+.box{
+    background-color: white;
+    color: rgb(49, 0, 0);
+    width: 140px;
+    height: 38px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.sex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w{
+    display: flex;
+    margin: 6px 10px;
+}
+.fas{
+    margin-right: 3px;
+}
+.femail{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: font-size 0.2s;
+    overflow: hidden;
+    display: none;
+    transition: display 0.5s;
+    border: 2px solid;
+}
+.femail:hover{
+      background-color: rgb(0, 81, 255);
+      color: aliceblue;
+}
+.mail{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    display: none;
+    border: 2px solid;
+    transition: display 0.5s;
+}
+.mail:hover{
+      background-color: #0d4af3;
+      color: aliceblue;
+}
+.b{
+    width: 25%;
+    font-size: 25px;
+    height: 80px;
+}
+#text{
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+#up{
+    opacity: 0;
+    transition: all 0.1s linear;
+}
+#text{
+    margin-left: 6px;
+
+}
+.secbox{
+    background-color: aliceblue;
+}
+.op{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    cursor: pointer;
+}
+.l{
+    background-color: white;
+    width: 50px;
+    height:10px;
+    margin: 5px;
+}
+#about{
+    height: 56vh;
+}
+.about{
+    display: flex;
+}
+.firsthalf{
+    width: 60%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.sechalf{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sechalf img{
+    width: 70%;
+    border-radius: 50%;
+}
+#contact{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands{
+    margin: 5px;
+    margin-top: 60px;
+
+}
+.end{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 1036px){
+    .black{
+        margin: 0 -62px;
+        position: absolute;
+        width: 136%;
+    }
+    .navlist{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: rgba(0, 0, 0, 0.651);
+        height: 330px;
+        width: 100%;
+        position: absolute;
+        display: none;
+    }
+    li{
+        margin: 13px;
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .rightnav{
+        margin: -54px;
+    }
+    .opp{
+        display: block;
+    }
+    .nn{
+        display: none;
+    }
+    .oppa{
+        background-color: rgba(248, 245, 245, 0);
+    }
+}
+@media only screen and  (min-width: 547px) and (max-width: 774px ){
+    #about{
+        height: 86vh;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firsthalf{
+        width: 60%;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .sechalf{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sechalf img{
+        width: 90%;
+        border-radius: 50%;
+    }
+    .big{
+        font-size: 44px;
+    }
+    .small{
+        font-size: 78px;
+    }
+    #contact{
+        height: 6vh;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-brands{
+        margin: 5px;
+    }
+}
+@media only screen and (min-width: 409px) and (max-width: 546px){
+    #about{
+        height: 80vh;
+    }
+    .okk{
+        width: 100%;
+    }
+    .big{
+        font-size: 44px;
+    }
+    .small{
+        font-size: 78px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firsthalf{
+        width: 60%;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .sechalf{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sechalf img{
+        width: 90%;
+        border-radius: 50%;
+    }
+    #contact{
+        height: 6vh;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-brands{
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 408px){
+    
+#about{
+    height: 87vh;
+}
+    .okk{
+        width: 100%;
+    }
+    .big{
+        font-size: 18px;
+    }
+    .small{
+        font-size: 48px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firsthalf{
+        width: 60%;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .sechalf{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sechalf img{
+        width: 90%;
+        border-radius: 50%;
+    }
+    #contact{
+        height: 6vh;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-brands{
+        margin: 5px;
+    }
+    
+}
